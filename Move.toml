@@ -1,0 +1,15 @@
+[package]
+name = "defy-app"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x02382099ef6c4f61d9fc0f4a87c8adec1d7ead8238539e9d10000dc7f7f0d424"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
